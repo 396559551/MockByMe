@@ -13,6 +13,10 @@ Features:
 npm i my-ts-lib
 ```
 
+## FQA
+
+使用过程中有问题可以查看 FQA
+
 # api介绍
 
 ## 数据模板

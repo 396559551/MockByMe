@@ -33,7 +33,8 @@ export function pick<T = any> (arr: T[], min: number = 1, max?: number): T | T[]
   if (min === 1 && max === 1) {
     return pickOne<T>(arr)
   }
-
+  // pick( [ item1, item2 ... ], min, max )
+  return shuffle<T>(arr, min, max)
 }
 
 export const pickOne = function<T = any> (arr: T[]): T {
